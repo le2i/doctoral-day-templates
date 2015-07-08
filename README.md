@@ -1,5 +1,22 @@
-Scientific publication to be published at ACPR-2015 in laTeX
-============================================================
+Template for the Le2i Doctoral Day 2015
+=======================================
+
+This repository offer a latex template in order to submit your articles.
+
+How to compile?
+---------------
+
+You will need to compile using PDFLatex and Biber. Successively run:
+
+```
+pdflatex master.tex
+biber master
+pdflatex master.tex
+pdflatex master.tex
+```
+
+Additional information about the template:
+------------------------------------------
 
 What ?
 ------
@@ -8,32 +25,14 @@ look at the damn title. This repo contains the latex for a scientific publicatio
 After a little description of what's the publication about, the rest of the section
 is use to describe the publication's target.
 
-### Call for Papers target discussion topics
-(check-list to cross when applies)
-
-* [ ] Computer Vision and Robot Vision;
-* [ ] Pattern Recognition and Machine Learning;
-* [ ] Signal Processing (signal, speech, image);
-* [x] Media Processing and Interaction (video, document, medical, biometrics, HCI, VR)
-
-### Important dates
-(check-list to keep track of the dates)
-
-* [  ] **July 10, 2015 - 23:59 (PST)** Full paper submission
-* [  ] **August 31, 2015**             Notification of acceptance
-* [  ] **September 25, 2015**          Camera ready
-* [  ] **September 25, 2015**          Author registration
-* [  ] **November 3, 2015**            Workshop/Tutorial
-* [  ] **November 4-6, 2015**          Main Conference
-
 ### Submission Guidelines 
 (check-list to ensure proper submission)
 
-* [x] Papers should be formatted in ACPR2015 style.
+* [ ] Papers should be formatted in ACPR2015 style.
 * [ ] 8 pages maximum (+1 extra only with references).
-* [x] Ruler 
+* [ ] Ruler 
 * [ ] The review process is double blind:
-  * [x] Remove author and institutional information using the build in macro
+  * [ ] Remove author and institutional information using the build in macro
   * [ ] Remove author information from all paper headers.
   * [ ] Remove clues from:
     * [ ] Acknowledgment
@@ -107,23 +106,6 @@ The cross indicates, that they have a usage example in this template.
 ### Procedure
 The master branch should be stay clean. Every conceptual increment (or todo item) should generate an issue. In order to address the issue a branch should be created and worked out. Once the issue is finished the master is checked out and the branch merged. If a issue needs to be reopen the issue is checked out, merged to master and reworked. Consider to open a new issue instead of reopening a previous one when possible.
 
-### LaTeX Copmpilation
-
-* Usual latex run
-
-  ```
-  latex master
-  biber master
-  latex master
-  latex master
-  ```
-
-* Automated compilation with preview (my choice, using *latexmk* and *xelatex*)
-
-  ```
-  latexmk --xelatex -pvc --pdf master.tex
-  ```
-
 ### Important Note:
 Keeping this file updated is important, it can help in further projects.
 
@@ -131,13 +113,3 @@ Keeping this file updated is important, it can help in further projects.
 
 * https://github.com/asm-products/Dissertate
 * https://github.com/bamos/latex-templates
-
-TODO
-----
-(Stuff to get done, either in the project or the template, that would depend :))
-
-* [ ] Create a better cleveref example
-* [ ] Some compilation erros for the nested acronyms
-* [ ] Place a snapshot of each template linking to its *branch*
-* [ ] Task 1
-* [ ] Task 2
