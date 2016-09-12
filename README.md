@@ -1,23 +1,6 @@
-Templates for the Le2i Doctoral Day 2015
-=======================================
+# Beamer template for LE2I - UB Doctoral Day
 
-Paper Template
---------------
+This template is based on https://github.com/le2i/beamer-le2i
 
-Two branches are available:
-
-1. 'paper-latex' contains the latex template,
-1. 'paper-word' contains the Word template.
-
-We highly recommend you to use the latex template.
-
-Poster Template
----------------
-
-Only latex template is available in branch 'poster-latex'
-
-Presentation Template
----------------------
-
-Only latex template is available in branch 'presentation-latex'
+This is the template for Doctoral Day presentation submission
 

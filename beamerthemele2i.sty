@@ -1,0 +1,43 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%% LE2I beamer template
+%% Guillaume Lemaitre, October 2014
+%% Pierre Bonazza, Septembre 2016
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+\mode<presentation>
+
+%Required packages
+\RequirePackage{tikz}
+\RequirePackage{graphicx}
+\RequirePackage{amssymb}
+\RequirePackage{xcolor}
+\RequirePackage[absolute, overlay]{textpos}
+
+% Definition of color used in the template
+\definecolor{orounam}{HTML}{F78315}
+\definecolor{azulunam}{HTML}{092150}
+\definecolor{nicewhite}{HTML}{EEEFF2}
+\definecolor{niceblack}{HTML}{333333}
+\definecolor{goodblack}{HTML}{051441}
+\definecolor{darkerblue}{HTML}{031032}
+\definecolor{darkestblue}{HTML}{010923}
+
+% Define the logo of the LE2I
+\newcommand{\logoimate}{./images/logos/le2i-logo.pdf}
+\newcommand{\logoblanco}{./images/logos/le2i-logo.pdf}
+
+% Define the logo of the Universite de Bourgogne
+\newcommand{\logoub}{./images/logos/UBFC_NoBG.png}
+\newcommand{\logoubnobg}{./images/logos/UB_Light_NoBG.png}
+
+\ProcessOptions\relax
+
+% Configuration of the whole template
+\usecolortheme{le2i}
+\useinnertheme{le2i}
+\useoutertheme{le2i}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{blocks}[rounded][shadow=true]
+
+\mode<all>
