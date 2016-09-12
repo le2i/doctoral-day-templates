@@ -1,5 +1,7 @@
-# Beamer template for LE2I - UB Doctoral Day
+# Beamer template for LE2I - UB
 
-This template is based on https://github.com/le2i/beamer-le2i
+This repository hosts a template for presentation in beamer format. It is with the color of the LE2I and the Universite de Bourgogne
 
-This is the template for Doctoral Day Poster submission
+Share and modify as you want.
+
+Guillaume Lemaitre
